@@ -1,0 +1,10 @@
+/home/saeed/3D_Chess/build-3D_Chess-Android_Qt_6_2_2_Clang_arm64_v8a-Debug/CMakeFiles/rebuild_cache.dir
+/home/saeed/3D_Chess/build-3D_Chess-Android_Qt_6_2_2_Clang_arm64_v8a-Debug/CMakeFiles/edit_cache.dir
+/home/saeed/3D_Chess/build-3D_Chess-Android_Qt_6_2_2_Clang_arm64_v8a-Debug/CMakeFiles/3D_Chess_make_apk.dir
+/home/saeed/3D_Chess/build-3D_Chess-Android_Qt_6_2_2_Clang_arm64_v8a-Debug/CMakeFiles/3D_Chess.dir
+/home/saeed/3D_Chess/build-3D_Chess-Android_Qt_6_2_2_Clang_arm64_v8a-Debug/CMakeFiles/3D_Chess_prepare_apk_dir.dir
+/home/saeed/3D_Chess/build-3D_Chess-Android_Qt_6_2_2_Clang_arm64_v8a-Debug/CMakeFiles/apk.dir
+/home/saeed/3D_Chess/build-3D_Chess-Android_Qt_6_2_2_Clang_arm64_v8a-Debug/CMakeFiles/apk_all.dir
+/home/saeed/3D_Chess/build-3D_Chess-Android_Qt_6_2_2_Clang_arm64_v8a-Debug/CMakeFiles/qt_internal_plugins.dir
+/home/saeed/3D_Chess/build-3D_Chess-Android_Qt_6_2_2_Clang_arm64_v8a-Debug/CMakeFiles/3D_Chess_autogen_timestamp_deps.dir
+/home/saeed/3D_Chess/build-3D_Chess-Android_Qt_6_2_2_Clang_arm64_v8a-Debug/CMakeFiles/3D_Chess_autogen.dir

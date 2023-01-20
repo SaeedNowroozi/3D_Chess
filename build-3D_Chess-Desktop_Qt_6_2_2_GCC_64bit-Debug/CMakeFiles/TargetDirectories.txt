@@ -1,0 +1,5 @@
+/home/saeed/3D_Chess/build-3D_Chess-Desktop_Qt_6_2_2_GCC_64bit-Debug/CMakeFiles/rebuild_cache.dir
+/home/saeed/3D_Chess/build-3D_Chess-Desktop_Qt_6_2_2_GCC_64bit-Debug/CMakeFiles/edit_cache.dir
+/home/saeed/3D_Chess/build-3D_Chess-Desktop_Qt_6_2_2_GCC_64bit-Debug/CMakeFiles/3D_Chess.dir
+/home/saeed/3D_Chess/build-3D_Chess-Desktop_Qt_6_2_2_GCC_64bit-Debug/CMakeFiles/3D_Chess_autogen_timestamp_deps.dir
+/home/saeed/3D_Chess/build-3D_Chess-Desktop_Qt_6_2_2_GCC_64bit-Debug/CMakeFiles/3D_Chess_autogen.dir

@@ -1,0 +1,34 @@
+Performing C++ SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /home/saeed/3D_Chess/build-3D_Chess-Android_Qt_6_2_2_Clang_arm64_v8a-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_44ced && [1/2] Building CXX object CMakeFiles/cmTC_44ced.dir/src.cxx.o
+FAILED: CMakeFiles/cmTC_44ced.dir/src.cxx.o 
+/home/saeed/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=aarch64-none-linux-android23 --gcc-toolchain=/home/saeed/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/saeed/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/linux-x86_64/sysroot -DCMAKE_HAVE_LIBC_PTHREAD  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security    -fPIE -std=gnu++11 -MD -MT CMakeFiles/cmTC_44ced.dir/src.cxx.o -MF CMakeFiles/cmTC_44ced.dir/src.cxx.o.d -o CMakeFiles/cmTC_44ced.dir/src.cxx.o -c /home/saeed/3D_Chess/build-3D_Chess-Android_Qt_6_2_2_Clang_arm64_v8a-Debug/CMakeFiles/CMakeTmp/src.cxx
+/home/saeed/3D_Chess/build-3D_Chess-Android_Qt_6_2_2_Clang_arm64_v8a-Debug/CMakeFiles/CMakeTmp/src.cxx:13:3: error: use of undeclared identifier 'pthread_cancel'
+  pthread_cancel(thread);
+  ^
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+

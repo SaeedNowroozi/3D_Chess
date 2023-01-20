@@ -1,0 +1,123 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "3D_Chess",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "3D_Chess::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-3D_Chess-Debug-be6a84fca16f0864f7f9.json",
+					"name" : "3D_Chess",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "3D_Chess_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-3D_Chess_autogen-Debug-3ca642622b8277d7e3f0.json",
+					"name" : "3D_Chess_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "3D_Chess_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-3D_Chess_autogen_timestamp_deps-Debug-00b971a684cf12e7d545.json",
+					"name" : "3D_Chess_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "3D_Chess_make_apk::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-3D_Chess_make_apk-Debug-eff7d7bc72eea0976160.json",
+					"name" : "3D_Chess_make_apk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "3D_Chess_prepare_apk_dir::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-3D_Chess_prepare_apk_dir-Debug-1d5c7ba7565e32dc214d.json",
+					"name" : "3D_Chess_prepare_apk_dir",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "apk::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-apk-Debug-26bde933f50164d06f0c.json",
+					"name" : "apk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "apk_all::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-apk_all-Debug-925b300f752707e429df.json",
+					"name" : "apk_all",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "qt_internal_plugins::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-qt_internal_plugins-Debug-e306d4397f3bbdad57bc.json",
+					"name" : "qt_internal_plugins",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/saeed/3D_Chess/build-3D_Chess-Android_Qt_6_2_2_Clang_arm64_v8a-Debug",
+		"source" : "/home/saeed/3D_Chess/3D_Chess"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

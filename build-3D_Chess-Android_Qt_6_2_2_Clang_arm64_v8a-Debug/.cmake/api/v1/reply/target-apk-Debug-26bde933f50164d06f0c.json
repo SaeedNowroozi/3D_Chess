@@ -1,0 +1,121 @@
+{
+	"backtrace" : 8,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"_qt_internal_create_global_apk_target",
+			"include",
+			"find_package",
+			"add_dependencies",
+			"qt6_android_add_apk_target",
+			"_qt_internal_finalize_executable",
+			"qt6_finalize_target",
+			"qt_finalize_executable"
+		],
+		"files" : 
+		[
+			"/home/saeed/Qt/6.2.2/android_arm64_v8a/lib/cmake/Qt6Core/Qt6AndroidMacros.cmake",
+			"/home/saeed/Qt/6.2.2/android_arm64_v8a/lib/cmake/Qt6Core/Qt6CoreConfigExtras.cmake",
+			"/home/saeed/Qt/6.2.2/android_arm64_v8a/lib/cmake/Qt6Core/Qt6CoreConfig.cmake",
+			"/home/saeed/Qt/6.2.2/android_arm64_v8a/lib/cmake/Qt6/Qt6Config.cmake",
+			"CMakeLists.txt",
+			"/home/saeed/Qt/6.2.2/android_arm64_v8a/lib/cmake/Qt6Core/Qt6CoreMacros.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 4,
+				"line" : 15,
+				"parent" : 0
+			},
+			{
+				"file" : 3,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 177,
+				"parent" : 2
+			},
+			{
+				"file" : 2,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 115,
+				"parent" : 4
+			},
+			{
+				"file" : 1,
+				"parent" : 5
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 50,
+				"parent" : 6
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 388,
+				"parent" : 7
+			},
+			{
+				"command" : 8,
+				"file" : 4,
+				"line" : 58,
+				"parent" : 0
+			},
+			{
+				"command" : 7,
+				"file" : 5,
+				"line" : 855,
+				"parent" : 9
+			},
+			{
+				"command" : 6,
+				"file" : 5,
+				"line" : 677,
+				"parent" : 10
+			},
+			{
+				"command" : 5,
+				"file" : 5,
+				"line" : 618,
+				"parent" : 11
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 312,
+				"parent" : 12
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 13,
+			"id" : "3D_Chess_make_apk::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "apk::@6890427a1f51a3e7e1df",
+	"name" : "apk",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}
