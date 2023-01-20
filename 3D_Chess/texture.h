@@ -10,7 +10,7 @@ public:
     explicit Texture(QObject *parent = nullptr);
 
 signals:
-
+     void textue();
 };
 
 #endif // TEXTURE_H
