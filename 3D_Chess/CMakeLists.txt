@@ -18,6 +18,8 @@ set(PROJECT_SOURCES
         texture.h
         texture.cpp
         main.cpp
+        chessmodel.cpp
+        chessmodel.h
         qml.qrc
 )
 

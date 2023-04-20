@@ -97,6 +97,14 @@ build CMakeFiles/3D_Chess.dir/main.cpp.o: CXX_COMPILER__3D_Chess_Debug /home/sae
   OBJECT_DIR = CMakeFiles/3D_Chess.dir
   OBJECT_FILE_DIR = CMakeFiles/3D_Chess.dir
 
+build CMakeFiles/3D_Chess.dir/chessmodel.cpp.o: CXX_COMPILER__3D_Chess_Debug /home/saeed/3D_Chess/3D_Chess/chessmodel.cpp || cmake_object_order_depends_target_3D_Chess
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_QMLMODELS_LIB -DQT_QML_DEBUG -DQT_QML_LIB -DQT_QUICK_LIB
+  DEP_FILE = CMakeFiles/3D_Chess.dir/chessmodel.cpp.o.d
+  FLAGS = -g -fPIC -pthread -std=gnu++17
+  INCLUDES = -I/home/saeed/3D_Chess/build-3D_Chess-Desktop_Qt_6_2_2_GCC_64bit-Debug -I/home/saeed/3D_Chess/3D_Chess -I/home/saeed/3D_Chess/build-3D_Chess-Desktop_Qt_6_2_2_GCC_64bit-Debug/3D_Chess_autogen/include -isystem /home/saeed/Qt/6.2.2/gcc_64/include/QtCore -isystem /home/saeed/Qt/6.2.2/gcc_64/include -isystem /home/saeed/Qt/6.2.2/gcc_64/mkspecs/linux-g++ -isystem /home/saeed/Qt/6.2.2/gcc_64/include/QtQuick -isystem /home/saeed/Qt/6.2.2/gcc_64/include/QtGui -isystem /home/saeed/Qt/6.2.2/gcc_64/include/QtQml -isystem /home/saeed/Qt/6.2.2/gcc_64/include/QtNetwork -isystem /home/saeed/Qt/6.2.2/gcc_64/include/QtQmlModels -isystem /home/saeed/Qt/6.2.2/gcc_64/include/QtOpenGL
+  OBJECT_DIR = CMakeFiles/3D_Chess.dir
+  OBJECT_FILE_DIR = CMakeFiles/3D_Chess.dir
+
 build CMakeFiles/3D_Chess.dir/3D_Chess_autogen/EWIEGA46WW/qrc_qml.cpp.o: CXX_COMPILER__3D_Chess_Debug /home/saeed/3D_Chess/build-3D_Chess-Desktop_Qt_6_2_2_GCC_64bit-Debug/3D_Chess_autogen/EWIEGA46WW/qrc_qml.cpp || cmake_object_order_depends_target_3D_Chess
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_QMLMODELS_LIB -DQT_QML_DEBUG -DQT_QML_LIB -DQT_QUICK_LIB
   DEP_FILE = CMakeFiles/3D_Chess.dir/3D_Chess_autogen/EWIEGA46WW/qrc_qml.cpp.o.d
@@ -113,7 +121,7 @@ build CMakeFiles/3D_Chess.dir/3D_Chess_autogen/EWIEGA46WW/qrc_qml.cpp.o: CXX_COM
 #############################################
 # Link the executable 3D_Chess
 
-build 3D_Chess: CXX_EXECUTABLE_LINKER__3D_Chess_Debug CMakeFiles/3D_Chess.dir/3D_Chess_autogen/mocs_compilation.cpp.o CMakeFiles/3D_Chess.dir/texture.cpp.o CMakeFiles/3D_Chess.dir/main.cpp.o CMakeFiles/3D_Chess.dir/3D_Chess_autogen/EWIEGA46WW/qrc_qml.cpp.o | /home/saeed/Qt/6.2.2/gcc_64/lib/libQt6Quick.so.6.2.2 /home/saeed/Qt/6.2.2/gcc_64/lib/libQt6QmlModels.so.6.2.2 /home/saeed/Qt/6.2.2/gcc_64/lib/libQt6Qml.so.6.2.2 /home/saeed/Qt/6.2.2/gcc_64/lib/libQt6Network.so.6.2.2 /home/saeed/Qt/6.2.2/gcc_64/lib/libQt6OpenGL.so.6.2.2 /home/saeed/Qt/6.2.2/gcc_64/lib/libQt6Gui.so.6.2.2 /home/saeed/Qt/6.2.2/gcc_64/lib/libQt6Core.so.6.2.2 /usr/lib/x86_64-linux-gnu/libGLX.so /usr/lib/x86_64-linux-gnu/libOpenGL.so || 3D_Chess_autogen 3D_Chess_autogen_timestamp_deps
+build 3D_Chess: CXX_EXECUTABLE_LINKER__3D_Chess_Debug CMakeFiles/3D_Chess.dir/3D_Chess_autogen/mocs_compilation.cpp.o CMakeFiles/3D_Chess.dir/texture.cpp.o CMakeFiles/3D_Chess.dir/main.cpp.o CMakeFiles/3D_Chess.dir/chessmodel.cpp.o CMakeFiles/3D_Chess.dir/3D_Chess_autogen/EWIEGA46WW/qrc_qml.cpp.o | /home/saeed/Qt/6.2.2/gcc_64/lib/libQt6Quick.so.6.2.2 /home/saeed/Qt/6.2.2/gcc_64/lib/libQt6QmlModels.so.6.2.2 /home/saeed/Qt/6.2.2/gcc_64/lib/libQt6Qml.so.6.2.2 /home/saeed/Qt/6.2.2/gcc_64/lib/libQt6Network.so.6.2.2 /home/saeed/Qt/6.2.2/gcc_64/lib/libQt6OpenGL.so.6.2.2 /home/saeed/Qt/6.2.2/gcc_64/lib/libQt6Gui.so.6.2.2 /home/saeed/Qt/6.2.2/gcc_64/lib/libQt6Core.so.6.2.2 /usr/lib/x86_64-linux-gnu/libGLX.so /usr/lib/x86_64-linux-gnu/libOpenGL.so || 3D_Chess_autogen 3D_Chess_autogen_timestamp_deps
   FLAGS = -g
   LINK_LIBRARIES = -Wl,-rpath,/home/saeed/Qt/6.2.2/gcc_64/lib  /home/saeed/Qt/6.2.2/gcc_64/lib/libQt6Quick.so.6.2.2  /home/saeed/Qt/6.2.2/gcc_64/lib/libQt6QmlModels.so.6.2.2  /home/saeed/Qt/6.2.2/gcc_64/lib/libQt6Qml.so.6.2.2  /home/saeed/Qt/6.2.2/gcc_64/lib/libQt6Network.so.6.2.2  /home/saeed/Qt/6.2.2/gcc_64/lib/libQt6OpenGL.so.6.2.2  /home/saeed/Qt/6.2.2/gcc_64/lib/libQt6Gui.so.6.2.2  /home/saeed/Qt/6.2.2/gcc_64/lib/libQt6Core.so.6.2.2  -pthread  /usr/lib/x86_64-linux-gnu/libGLX.so  /usr/lib/x86_64-linux-gnu/libOpenGL.so
   OBJECT_DIR = CMakeFiles/3D_Chess.dir

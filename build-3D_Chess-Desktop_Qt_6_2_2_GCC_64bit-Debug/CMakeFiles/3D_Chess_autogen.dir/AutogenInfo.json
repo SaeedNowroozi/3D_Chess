@@ -427,6 +427,12 @@
 	"HEADERS" : 
 	[
 		[
+			"/home/saeed/3D_Chess/3D_Chess/chessmodel.h",
+			"MU",
+			"EWIEGA46WW/moc_chessmodel.cpp",
+			null
+		],
+		[
 			"/home/saeed/3D_Chess/3D_Chess/texture.h",
 			"MU",
 			"EWIEGA46WW/moc_texture.cpp",
@@ -499,6 +505,7 @@
 	"SETTINGS_FILE" : "/home/saeed/3D_Chess/build-3D_Chess-Desktop_Qt_6_2_2_GCC_64bit-Debug/CMakeFiles/3D_Chess_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[ "/home/saeed/3D_Chess/3D_Chess/chessmodel.cpp", "MU", null ],
 		[ "/home/saeed/3D_Chess/3D_Chess/main.cpp", "MU", null ],
 		[ "/home/saeed/3D_Chess/3D_Chess/texture.cpp", "MU", null ]
 	],
